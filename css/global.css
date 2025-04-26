@@ -369,7 +369,7 @@ b, strong {
     margin: 10px 0;
   }
 
-  .owl-theme .owl-nav {
+  .owl-theme .owl-nav, .owl-next, .owl-prev {
     display: none;
   }
 
