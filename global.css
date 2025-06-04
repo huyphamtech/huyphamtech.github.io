@@ -125,6 +125,7 @@ body {
   transition: all 0.3s ease;
   text-align: center;
   display: inline-block;
+  text-decoration: none;
 }
 
 .resume-btn:hover {
@@ -255,6 +256,8 @@ body {
   transition: all 0.3s ease;
   text-align: center;
   display: inline-block;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
 
 /* Buttons */
@@ -411,6 +414,10 @@ textarea {
     height: 90vh;
   }
 
+  .carousel-read-more-btn {
+    font-size: 1rem;
+  }
+
   .work-left h1 {
     font-size: 3rem;
   }
@@ -469,6 +476,7 @@ textarea {
   .carousel-read-more-btn {
     max-width: 80vw;
   }
+
   .work-with-me {
     flex-direction: column;
     max-height: 200vh;
@@ -539,5 +547,13 @@ textarea {
 
   .carousel-read-more-btn {
     max-width: 80vw;
+  }
+  
+  .work-middle form {
+    max-height: 80vh;
+  }
+
+  .work-with-me {
+    max-height: 100%;
   }
 }
