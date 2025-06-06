@@ -355,6 +355,11 @@ textarea {
   height: auto;
 }
 
+.work-right{
+  width: 30vw;
+  height: auto;
+}
+
 /* Responsive */
 @media (max-width: 1366px) {
   .socials a img {
@@ -548,7 +553,7 @@ textarea {
   .carousel-read-more-btn {
     max-width: 80vw;
   }
-  
+
   .work-middle form {
     max-height: 80vh;
   }
